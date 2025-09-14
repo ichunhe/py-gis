@@ -13,7 +13,7 @@ router = APIRouter(prefix="/regions", tags=["Regions"])
 def search_region(region_request: RegionRequest, db: Session = Depends(get_db),
     current_user: dict = Depends(get_current_user)):
     try:
-        region = get_region(region_request.lon, region_request.lat, db)
+        region = get_region(region_request.longitude, region_request.latitude, db)
         if region:
             return ResponseDTO.success_response(region)
         else:
