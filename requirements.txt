@@ -1,0 +1,16 @@
+fastapi
+geoalchemy2
+psycopg2-binary
+pydantic-settings
+python-dotenv
+shapely
+sqlmodel
+pyjwt
+uvicorn
+
+# Optional packages
+# alembic
+
+# Optional packages
+# --extra-index-url https://test.pypi.org/simple/
+# base-repository

@@ -1,0 +1,15 @@
+.env.development
+.env.production
+__pycache__/
+.venv/
+.DS_Store
+.idea/
+.vscode/
+*.pyc
+instance/
+migrations/
+tests/
+.pytest_cache/
+celerybeat-schedule
+coverage.xml
+htmlcov/
