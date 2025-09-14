@@ -1,7 +1,7 @@
 .env.development
 .env.production
 __pycache__/
-.venv/
+venv/
 .DS_Store
 .idea/
 .vscode/
